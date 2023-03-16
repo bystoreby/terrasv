@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- Removed by WebCopy --><!--<base href="https://terrasv.com/">--><!-- Removed by WebCopy -->
+<title>Фотогалерея</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="favicon.ico">
+
+<script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<link href="tpl/css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="tpl/css/style.css" rel="stylesheet" type="text/css">
+<link href="tpl/css/gal.css" rel="stylesheet" type="text/css">
+
+<link href="tpl/slider/style.css" rel="stylesheet" type="text/css">
+<script src="tpl/slider/jquery.timers.js"></script> 
+<script src="tpl/slider/slider.js"></script>
+
+    <link rel="stylesheet" href="css/colorbox.css">
+	<script src="js/jquery.colorbox.js"></script>
+    	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+		
+<script language="javascript" src="tpl/js/jquery.paulund_modal_box.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+	
+	<div id="wrap_top">
+		<div class="sep"></div>
+		<div class="sep_pink">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="index.htm"><img src="tpl/images/logo.png" class="logo"></a>
+				</div>
+				<div class="col-md-4">
+					<div class="tel" style="font-size: 18px;">+7 (812) 748-95-96<br>+7 (495) 410-93-19</div>
+					<div class="tel_descr">Позвоните нам или <a href="zakazat-zvonok.html">закажите звонок</a></div>
+				</div>
+				<div class="col-md-4">
+					<a href="zayavka-na-prajs.html"><img src="tpl/images/nash_price.png" class="nash_price"></a>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+		<div class="slider-wrap slide-1">
+	<div class="slider">
+		<div class="slide"><a href="myi-proizvodim/dekorativnye-figurki.html"><img src="tpl/images/banner2.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/vazony.html"><img src="tpl/images/banner3.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/skami.html"><img src="tpl/images/banner5.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/ograzhdenia.html"><img src="tpl/images/banner6.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/topiarnye-konstrukcii.html"><img src="tpl/images/banner11.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/urny.html"><img src="tpl/images/banner4.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="/myi-proizvodim/igrovye-ploshadki"><img src="tpl/images/banner7.png" width="960px" height="344px"></a></div>
+	</div>
+</div>	 
+		</div>		
+	</div>
+	<div id="menu">
+<ul class=""><li class="first"><a href="index.htm">Главная</a></li><li><a href="myi-proizvodim/dekorativnye-figurki.html">Мы производим</a></li><li class="active"><a href="fotogalereya.html">Фотогалерея</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="contacts.html">Контакты</a></li><li class="last"><a href="fotogalereya-1.html?galAlbum=6">Новые разработки</a></li></ul>
+	</div>
+	<div id="wrap_bottom">
+		<div class="inner_container">
+			<div class="row">
+							<div class="col-md-3 sidebar">
+        	<div class="searchform">
+        		<form action="/search" method="get" id="searchform">
+							<input name="query" type="text" class='rounded' id="s" value="" placeholder="Поиск">
+						</form><!-- end searchform-->
+					</div>	
+					<div class="menu_dop">
+<ul class=""><li class="first"><a href="myi-proizvodim/topiarnye-konstrukcii.html">Вертикальное озеленение</a></li><li><a href="myi-proizvodim/vazony.html">Вазоны</a></li><li><a href="myi-proizvodim/ograzhdenia.html">Ограждения</a></li><li><a href="myi-proizvodim/dekorativnye-figurki.html">Декоративные фигурки</a></li><li><a href="myi-proizvodim/skami.html">Скамьи</a></li><li><a href="myi-proizvodim/urny.html">Урны</a></li><li><a href="myi-proizvodim/besedki.html">Беседки</a></li><li><a href="myi-proizvodim/komplektyi.html">Комплекты</a></li><li><a href="myi-proizvodim/korobchatyie-gabionyi.html">Коробчатые габионы</a></li><li class="last"><a href="myi-proizvodim/kontejnernyie-ploshhadki.html">Контейнерные площадки</a></li></ul>
+					</div>
+					<a href="fotogalereya.html"><img src="tpl/images/but_gallery.png"></a>
+				</div>
+				<div class="col-md-9">
+					<div class="inner_content">
+<h1>Фотогалерея</h1>
+
+ 
+
+ 
+
+ 
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/48-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F48.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/48.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F48.JPG" alt="DSCN2531.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/49.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F49.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/49-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F49.JPG" alt="DSCN2528.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/54.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F54.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/54-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F54.JPG" alt="DSCN2527.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/57.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F57.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/57-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F57.JPG" alt="фото.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/50.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F50.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/50-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F50.JPG" alt="IMG_1778.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/51.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F51.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/51-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F51.JPG" alt="IMG_1790.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/52.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F52.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/52-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F52.JPG" alt="IMG_1857.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/53.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F53.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/53-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F53.JPG" alt="IMG_1858.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/56.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F56.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/56-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F56.JPG" alt="IMG_1867-1.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/55.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F55.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/55-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F55.jpg" alt="Табличка 2.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/58.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F58.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/58-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F58.JPG" alt="IMG_1870.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/182.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F182.jpg" class="group1" title="Искусственный декоративный камень">
+<img class="" src="assets/components/gallery/182-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F182.jpg" alt="Каменные обои">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/215.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F215.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/215-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F215.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/216.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F216.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/216-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F216.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/217.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F217.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/217-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F217.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/218.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F218.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/218-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F218.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/219.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F219.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/219-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F219.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/220.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F220.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/220-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F220.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/221.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F221.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/221-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F221.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/222.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F222.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/222-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F222.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/223.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F223.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/223-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F223.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/224.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F224.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/224-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F224.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/225.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F225.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/225-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F225.jpg" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/280.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F280.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/280-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F280.jpg" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/281.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F281.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/281-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F281.JPG" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/282.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F282.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/282-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F282.jpg" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/283.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F283.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/283-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F283.jpg" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/284.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F284.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/284-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F284.jpg" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/285.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F285.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/285-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F285.jpg" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/286.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F286.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/286-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F286.jpg" alt="Скамья">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/287.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F287.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/287-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F287.jpg" alt="Вазон">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/288.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F288.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/288-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F288.jpg" alt="Вазон для дерева">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/289.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F289.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/289-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F289.jpg" alt="Улитка">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/290.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F290.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/290-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F290.jpg" alt="Черепаха">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/291.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F291.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/291-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F291.jpg" alt="Дракон">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/293.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F293.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/293-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F293.jpg" alt="ВК- 10 (1 скамья)">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/294.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F294.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/294-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F294.jpg" alt="ВК-10 (2 скамьи)">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/295.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F295.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/295-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F295.jpg" alt="ВК-10 (4 скамьи) и Вазон для дерева">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/297.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F297.jpg" class="group1" title="ВК-10 с металлической конструкцией(4 чаши)">
+<img class="" src="assets/components/gallery/297-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F297.jpg" alt="ВК-10 с металлической конструкцией(4 чаши)">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/298.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F298.jpg" class="group1" title="СК-1 (2 скамьи со спинкой)">
+<img class="" src="assets/components/gallery/298-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F298.jpg" alt="СК-1 (2 скамьи со спинкой)">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/292.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F292.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/292-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F292.jpg" alt="Балюстрада">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/311.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F311.JPG" class="group1" title="Балюстрада">
+<img class="" src="assets/components/gallery/311-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F311.JPG" alt="Балюстрада">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/312.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F312.jpg" class="group1" title="Балюстрада">
+<img class="" src="assets/components/gallery/312-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F312.jpg" alt="Балюстрада">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/314.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F314.jpg" class="group1" title="Император">
+<img class="" src="assets/components/gallery/314-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F314.jpg" alt="Император">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/315.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F315.jpg" class="group1" title="Император">
+<img class="" src="assets/components/gallery/315-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F6%2F315.jpg" alt="Император">
+</a>
+</div>
+ 
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="doma"></div>
+		<div class="sep"></div>
+		<div class="sep_pink_footer" style="padding: 6px 60px;">
+			<div class="row">
+				<div class="col-md-3">
+					<p>ООО «Терра-СВ».<br>
+					Малые архитектурные формы.<br>
+					1998г.-2017 г.</p>
+					<p style="margin-bottom: 0;margin-top: -5px;">Разработано <a href="http://webmango.ru" style="color: #e46600;">МАНГО</a></p>
+				</div>
+				<div class="col-md-5">
+					<p>Ленинградская область, Ломоносовский район, д. Виллози<br>
+					тел/факс: (812) 748-95-96<br>
+					Коммерческая служба: 970-30-42</p>
+				</div>
+				<div class="col-md-4">
+				    <p>Представительство в Москве:<br>
+                        г. Москва, ул. Академика Бочвара, д.7, корп.1,<br>
+                        тел: +7(495)410-93-19
+                    </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- Removed by WebCopy --><!--<base href="https://terrasv.com/">--><!-- Removed by WebCopy -->
+<title>Фотогалерея</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="favicon.ico">
+
+<script src="ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<link href="tpl/css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="tpl/css/style.css" rel="stylesheet" type="text/css">
+<link href="tpl/css/gal.css" rel="stylesheet" type="text/css">
+
+<link href="tpl/slider/style.css" rel="stylesheet" type="text/css">
+<script src="tpl/slider/jquery.timers.js"></script> 
+<script src="tpl/slider/slider.js"></script>
+
+    <link rel="stylesheet" href="css/colorbox.css">
+	<script src="js/jquery.colorbox.js"></script>
+    	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+		
+<script language="javascript" src="tpl/js/jquery.paulund_modal_box.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+	
+	<div id="wrap_top">
+		<div class="sep"></div>
+		<div class="sep_pink">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="index.htm"><img src="tpl/images/logo.png" class="logo"></a>
+				</div>
+				<div class="col-md-4">
+					<div class="tel" style="font-size: 18px;">+7 (812) 748-95-96<br>+7 (495) 410-93-19</div>
+					<div class="tel_descr">Позвоните нам или <a href="zakazat-zvonok.html">закажите звонок</a></div>
+				</div>
+				<div class="col-md-4">
+					<a href="zayavka-na-prajs.html"><img src="tpl/images/nash_price.png" class="nash_price"></a>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+		<div class="slider-wrap slide-1">
+	<div class="slider">
+		<div class="slide"><a href="myi-proizvodim/dekorativnye-figurki.html"><img src="tpl/images/banner2.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/vazony.html"><img src="tpl/images/banner3.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/skami.html"><img src="tpl/images/banner5.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/ograzhdenia.html"><img src="tpl/images/banner6.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/topiarnye-konstrukcii.html"><img src="tpl/images/banner11.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="myi-proizvodim/urny.html"><img src="tpl/images/banner4.png" width="960px" height="344px"></a></div>
+		<div class="slide"><a href="/myi-proizvodim/igrovye-ploshadki"><img src="tpl/images/banner7.png" width="960px" height="344px"></a></div>
+	</div>
+</div>	 
+		</div>		
+	</div>
+	<div id="menu">
+<ul class=""><li class="first"><a href="index.htm">Главная</a></li><li><a href="myi-proizvodim/dekorativnye-figurki.html">Мы производим</a></li><li class="active"><a href="fotogalereya.html">Фотогалерея</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="contacts.html">Контакты</a></li><li class="last"><a href="fotogalereya-1.html?galAlbum=6">Новые разработки</a></li></ul>
+	</div>
+	<div id="wrap_bottom">
+		<div class="inner_container">
+			<div class="row">
+							<div class="col-md-3 sidebar">
+        	<div class="searchform">
+        		<form action="/search" method="get" id="searchform">
+							<input name="query" type="text" class='rounded' id="s" value="" placeholder="Поиск">
+						</form><!-- end searchform-->
+					</div>	
+					<div class="menu_dop">
+<ul class=""><li class="first"><a href="myi-proizvodim/topiarnye-konstrukcii.html">Вертикальное озеленение</a></li><li><a href="myi-proizvodim/vazony.html">Вазоны</a></li><li><a href="myi-proizvodim/ograzhdenia.html">Ограждения</a></li><li><a href="myi-proizvodim/dekorativnye-figurki.html">Декоративные фигурки</a></li><li><a href="myi-proizvodim/skami.html">Скамьи</a></li><li><a href="myi-proizvodim/urny.html">Урны</a></li><li><a href="myi-proizvodim/besedki.html">Беседки</a></li><li><a href="myi-proizvodim/komplektyi.html">Комплекты</a></li><li><a href="myi-proizvodim/korobchatyie-gabionyi.html">Коробчатые габионы</a></li><li class="last"><a href="myi-proizvodim/kontejnernyie-ploshhadki.html">Контейнерные площадки</a></li></ul>
+					</div>
+					<a href="fotogalereya.html"><img src="tpl/images/but_gallery.png"></a>
+				</div>
+				<div class="col-md-9">
+					<div class="inner_content">
+<h1>Фотогалерея</h1>
+
+ 
+
+ 
+
+ 
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/78-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F78.JPG" class="group1" title="В-1">
+<img class="" src="assets/components/gallery/78.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F78.JPG" alt="В-1">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/85.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F85.jpg" class="group1" title="В-1">
+<img class="" src="assets/components/gallery/85-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F85.jpg" alt="В-1.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/161.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F161.JPG" class="group1" title="В-2">
+<img class="" src="assets/components/gallery/161-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F161.JPG" alt="В-2.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/86.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F86.jpg" class="group1" title="В-1 и В-5">
+<img class="" src="assets/components/gallery/86-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F86.jpg" alt="P10103341.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/264.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F264.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/264-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F264.JPG" alt="Пеньки">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/265.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F265.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/265-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F265.JPG" alt="Пеньки2">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/266.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F266.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/266-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F266.JPG" alt="Пеньки3">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/162.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F162.JPG" class="group1" title="В-4">
+<img class="" src="assets/components/gallery/162-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F162.JPG" alt="В-4.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/80.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F80.JPG" class="group1" title="В-6">
+<img class="" src="assets/components/gallery/80-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F80.JPG" alt="IMG_0050.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/88.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F88.jpg" class="group1" title="В-4,-В-6">
+<img class="" src="assets/components/gallery/88-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F88.jpg" alt="В-4,-В-6(2).jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/89.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F89.JPG" class="group1" title="В-2 и В-6">
+<img class="" src="assets/components/gallery/89-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F89.JPG" alt="P1010279.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/159.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F159.jpg" class="group1" title="В-7">
+<img class="" src="assets/components/gallery/159-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F159.jpg" alt="В-7.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/163.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F163.jpg" class="group1" title="В-7">
+<img class="" src="assets/components/gallery/163-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F163.jpg" alt="В-7">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/165.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F165.jpg" class="group1" title="В-8">
+<img class="" src="assets/components/gallery/165-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F165.jpg" alt="B-8 .jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/164.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F164.jpg" class="group1" title="В-8">
+<img class="" src="assets/components/gallery/164-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F164.jpg" alt="В-8.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/79.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F79.JPG" class="group1" title="В-13">
+<img class="" src="assets/components/gallery/79-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F79.JPG" alt="IMG_1389.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/166.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F166.JPG" class="group1" title="В-15">
+<img class="" src="assets/components/gallery/166-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F166.JPG" alt="В-15">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/158.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F158.jpg" class="group1" title="В-15/2">
+<img class="" src="assets/components/gallery/158-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F158.jpg" alt="49.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/228.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F228.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/228-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F228.jpg" alt="В-13">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/87.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F87.jpg" class="group1" title="Бордюры">
+<img class="" src="assets/components/gallery/87-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F87.jpg" alt="Бордюры клумба.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/90.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F90.JPG" class="group1" title="В-18">
+<img class="" src="assets/components/gallery/90-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F90.JPG" alt="цветочница 1.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/156.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F156.jpg" class="group1" title="Бордюры">
+<img class="" src="assets/components/gallery/156-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F156.jpg" alt="ББ-2.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/157.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F157.jpg" class="group1" title="Бордюры">
+<img class="" src="assets/components/gallery/157-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F157.jpg" alt="ББ-3.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/227.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F227.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/227-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F227.jpg" alt="ББ">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/304.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F304.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/304-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F304.jpg" alt="Бордюры">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/185.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F185.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/185-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F185.JPG" alt="Ваза Магнолия">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/82.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F82.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/82-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F82.jpg" alt="IMG045-01.jpg">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/81.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F81.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/81-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F81.JPG" alt="184.JPG">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/184.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F184.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/184-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F184.JPG" alt="Буквы 300 лет">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/186.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F186.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/186-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F186.JPG" alt="Буквы Урицк">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/187.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F187.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/187-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F187.JPG" alt="Буквы Сосенское">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/188.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F188.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/188-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F188.JPG" alt="Букет">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/189.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F189.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/189-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F189.JPG" alt="Цветы">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/198.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F198.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/198-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F198.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/199.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F199.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/199-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F199.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/200.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F200.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/200-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F200.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/201.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F201.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/201-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F201.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/202.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F202.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/202-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F202.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/203.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F203.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/203-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F203.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/204.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F204.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/204-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F204.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/205.JPG?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F205.JPG" class="group1" title="">
+<img class="" src="assets/components/gallery/205-1.JPG?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F205.JPG" alt="">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/301.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F301.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/301-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F301.jpg" alt="Чаша">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/302.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F302.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/302-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F302.jpg" alt="Чаша">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/303.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F303.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/303-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F303.jpg" alt="Чаша">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/322.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F322.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/322-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F322.jpg" alt="Бабочка">
+</a>
+</div>
+<div class="gal-item gal-item">
+<a href="assets/components/gallery/323.jpg?action=web/phpthumb&amp;ctx=web&amp;w=800&amp;h=800&amp;zc=0&amp;far=&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F323.jpg" class="group1" title="">
+<img class="" src="assets/components/gallery/323-1.jpg?action=web/phpthumb&amp;ctx=web&amp;w=195&amp;h=140&amp;zc=1&amp;far=C&amp;q=90&amp;src=%2Fassets%2Fgallery%2F10%2F323.jpg" alt="Кораблик">
+</a>
+</div>
+ 
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="doma"></div>
+		<div class="sep"></div>
+		<div class="sep_pink_footer" style="padding: 6px 60px;">
+			<div class="row">
+				<div class="col-md-3">
+					<p>ООО «Терра-СВ».<br>
+					Малые архитектурные формы.<br>
+					1998г.-2017 г.</p>
+					<p style="margin-bottom: 0;margin-top: -5px;">Разработано <a href="http://webmango.ru" style="color: #e46600;">МАНГО</a></p>
+				</div>
+				<div class="col-md-5">
+					<p>Ленинградская область, Ломоносовский район, д. Виллози<br>
+					тел/факс: (812) 748-95-96<br>
+					Коммерческая служба: 970-30-42</p>
+				</div>
+				<div class="col-md-4">
+				    <p>Представительство в Москве:<br>
+                        г. Москва, ул. Академика Бочвара, д.7, корп.1,<br>
+                        тел: +7(495)410-93-19
+                    </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
